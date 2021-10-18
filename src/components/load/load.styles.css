@@ -1,0 +1,21 @@
+.load-circle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, .5);
+    border-left-color: black;
+    position: relative;
+    overflow: hidden;
+    animation: infinite spin 1.75s;
+    margin: auto;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+}
